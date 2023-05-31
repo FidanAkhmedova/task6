@@ -48,7 +48,7 @@ public class Main {
         deleteFromList(queue);
         System.out.println(queue.isEmpty() ?  "Collection is empty !!!" : "Collection is not empty");
     }
-
+///
     public static void addToList(Queue<Customer> queue, Customer customer){
         queue.add(customer);
     }
