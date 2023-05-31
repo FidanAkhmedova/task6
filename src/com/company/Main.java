@@ -56,7 +56,6 @@ public class Main {
         Iterator<Customer> iterator = queue.iterator();
         while (iterator.hasNext()){
             System.out.println("\n " + iterator.next());
-//            iterator.remove();
         }
     }
     public static void deleteFromList(Queue<Customer> queue){
